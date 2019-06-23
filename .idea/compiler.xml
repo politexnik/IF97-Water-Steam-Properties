@@ -10,5 +10,6 @@
         <module name="IF97-Water-Properties" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
