@@ -78,46 +78,46 @@ public class Test1 {
     public void test1() {
 //        Assert.assertEquals( tusk.arrOutAfter4(arrIn), arrOut);
 //        Assert.assertArrayEquals(tusk.arrOutAfter4(arrIn), arrOut);
-//        Assert.assertEquals(Function.Region1.BackwardEquationTPH.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
-//        Assert.assertEquals(Function.Region1.BackwardEquationTPS.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-7);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.volume(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.enthalpy(arrIn[0], arrIn[1]) / 1000, arrOut[1], 1e-5);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.internalEnergy(arrIn[0], arrIn[1]) / 1000, arrOut[2], 1e-5);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.entropy(arrIn[0], arrIn[1]) / 1000, arrOut[3], 1e-5);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]) / 1000, arrOut[4], 1e-5);
-//        Assert.assertEquals(Function.Region2.MetastableVaporRegionSupplEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-5);
+//        Assert.assertEquals(BackwardEquationTPH.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
+//        Assert.assertEquals(BackwardEquationTPS.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-7);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.volume(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.enthalpy(arrIn[0], arrIn[1]) / 1000, arrOut[1], 1e-5);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.internalEnergy(arrIn[0], arrIn[1]) / 1000, arrOut[2], 1e-5);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.entropy(arrIn[0], arrIn[1]) / 1000, arrOut[3], 1e-5);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]) / 1000, arrOut[4], 1e-5);
+//        Assert.assertEquals(MetastableVaporRegionSupplEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-5);
         //Тест Зоны 2 вспомогательное уравнение PH зоны 2А
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePH.Zone2A.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
+//        Assert.assertEquals(Zone2A.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
 //        //Тест Зоны 2 вспомогательное уравнение PH зоны 2B
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePH.Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-7);
+//        Assert.assertEquals(Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-7);
 //        //Тест Зоны 2 вспомогательное уравнение PH зоны 2C
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePH.Zone2C.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
+//        Assert.assertEquals(Zone2C.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
 //        //Тест Зоны 2 вспомогательное уравнение PS зоны 2A
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePS.Zone2A.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
+//        Assert.assertEquals(Zone2A.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
 //        //Тест Зоны 2 вспомогательное уравнение PS зоны 2B
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePS.Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
+//        Assert.assertEquals(Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
 //        //Тест Зоны 2 вспомогательное уравнение PS зоны 2С
-//        Assert.assertEquals(Function.Region2.BackwardEquation.temperaturePS.Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
+//        Assert.assertEquals(Zone2B.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
 //        //Тест Зоны 2 вспомогательное уравнение PS
-//        Assert.assertEquals(Function.Region2.BackwardEquationTPS.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
+//        Assert.assertEquals(BackwardEquationTPS.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
 //        //Тест Зоны 2 вспомогательное уравнение PH
-//        Assert.assertEquals(Function.Region2.BackwardEquationTPH.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
+//        Assert.assertEquals(BackwardEquationTPH.temperature(arrIn[0], arrIn[1]), arrOut[0], 1e-5);
 
         //Тест Зоны 2 основное уравнение Ro T
-//        Assert.assertEquals(Function.Region3.BasicEquation.pressure(arrIn[0], arrIn[1]), arrOut[0], 1e-1);
-//        Assert.assertEquals(Function.Region3.BasicEquation.enthalpy(arrIn[0], arrIn[1]), arrOut[1], 1e-2);
-//        Assert.assertEquals(Function.Region3.BasicEquation.internalEnergy(arrIn[0], arrIn[1]), arrOut[2], 1e-2);
-//        Assert.assertEquals(Function.Region3.BasicEquation.entropy(arrIn[0], arrIn[1]), arrOut[3], 1e-5);
-//        Assert.assertEquals(Function.Region3.BasicEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]), arrOut[4], 1e-3);
-//        Assert.assertEquals(Function.Region3.BasicEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-5);
+//        Assert.assertEquals(BasicEquation.pressure(arrIn[0], arrIn[1]), arrOut[0], 1e-1);
+//        Assert.assertEquals(BasicEquation.enthalpy(arrIn[0], arrIn[1]), arrOut[1], 1e-2);
+//        Assert.assertEquals(BasicEquation.internalEnergy(arrIn[0], arrIn[1]), arrOut[2], 1e-2);
+//        Assert.assertEquals(BasicEquation.entropy(arrIn[0], arrIn[1]), arrOut[3], 1e-5);
+//        Assert.assertEquals(BasicEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]), arrOut[4], 1e-3);
+//        Assert.assertEquals(BasicEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-5);
 
         //Тест Зоны 5 основное уравнение P T
-//        Assert.assertEquals(Function.Region5.BasicEquation.volume(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
-//        Assert.assertEquals(Function.Region5.BasicEquation.enthalpy(arrIn[0], arrIn[1]), arrOut[1], 1e-5);
-//        Assert.assertEquals(Function.Region5.BasicEquation.internalEnergy(arrIn[0], arrIn[1]), arrOut[2], 1e-5);
-//        Assert.assertEquals(Function.Region5.BasicEquation.entropy(arrIn[0], arrIn[1]), arrOut[3], 1e-5);
-//        Assert.assertEquals(Function.Region5.BasicEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]), arrOut[4], 1e-8);
-//        Assert.assertEquals(Function.Region5.BasicEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-9);
+//        Assert.assertEquals(BasicEquation.volume(arrIn[0], arrIn[1]), arrOut[0], 1e-8);
+//        Assert.assertEquals(BasicEquation.enthalpy(arrIn[0], arrIn[1]), arrOut[1], 1e-5);
+//        Assert.assertEquals(BasicEquation.internalEnergy(arrIn[0], arrIn[1]), arrOut[2], 1e-5);
+//        Assert.assertEquals(BasicEquation.entropy(arrIn[0], arrIn[1]), arrOut[3], 1e-5);
+//        Assert.assertEquals(BasicEquation.isobaricHeatCapacity(arrIn[0], arrIn[1]), arrOut[4], 1e-8);
+//        Assert.assertEquals(BasicEquation.speedOfSound(arrIn[0], arrIn[1]), arrOut[5], 1e-9);
 
     }
 }

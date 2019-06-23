@@ -1,4 +1,8 @@
-package Function;
+package ru.politexnik.function;
+
+import Function.Boundary.*;
+import ru.politexnik.function.boundary.RegionBetween2And3;
+import ru.politexnik.function.boundary.SaturationLine;
 
 public enum PropertyRegion {
     Region1("1"), Region2("2"), Region2A("2A"), Region2B("2B"), Region2C("2C"),
@@ -25,7 +29,7 @@ public enum PropertyRegion {
             if (pressure > SaturationLine.pressure(temperature)) {
                 return Region1;
             } else return Region2;
-        } else if (temperature>RegionBetween2And3.boundaryTemperatureBetweenRegions2And3(100e+6)) {      // Зона 2 вне действия границы между 2 и 3
+        } else if (temperature> RegionBetween2And3.boundaryTemperatureBetweenRegions2And3(100e+6)) {      // Зона 2 вне действия границы между 2 и 3
             return Region2;
         } else if (pressure > RegionBetween2And3.boundaryPressureBetweenRegions2And3(temperature)) {
                 return Region3;

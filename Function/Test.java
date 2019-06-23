@@ -1,6 +1,5 @@
 package Function;
 
-import Function.Boundary.*;
 import Function.Region1.BasicEquation;
 
 
